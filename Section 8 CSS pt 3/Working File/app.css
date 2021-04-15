@@ -1,0 +1,52 @@
+.example {
+  width: auto;
+  height: 1000px;
+  border: 1px;
+  border: 1px dashed #006d77;
+  border-radius: 2px;
+  padding: 4px;
+  background-image: linear-gradient(30deg, #f1faee, #a8dadc);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: small;
+  color: black;
+}
+
+#lorem {
+  display: inline-block;
+  width: 200px;
+  height: 300px;
+  margin: 50px;
+  border: 2px solid grey;
+  vertical-align: top;
+  background-color: #f1faee;
+}
+
+h1 {
+  width: 200px;
+  height: 200px;
+  border: thin solid #ffba08;
+  border-radius: 50%;
+  position: relative;
+  padding: 4px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 50px;
+  color: #e9c46a;
+  background-image: linear-gradient(30deg, #f4a261, #e76f51);
+}
+.shopnav {
+  width: auto;
+  background-image: linear-gradient(30deg, #f4a261, #e76f51);
+}
+.shopnav span > button {
+  width: 100px;
+  padding: 5px;
+  border: none;
+  border-right: 2px dotted #363636;
+  border-radius: 2px;
+  margin: 2px;
+  background-color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #242424;
+}

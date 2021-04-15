@@ -1,0 +1,59 @@
+/* section {
+  width: 500px;
+  height: 500px;
+  background-image: linear-gradient(30deg, #aaa449, #ddba78);
+}
+
+#rgba {
+  width: 50%;
+  height: 50%;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+#opacity {
+  width: 50%;
+  height: 50%;
+  background-color: rgb(61, 104, 199);
+  opacity: 0.5;
+} */
+
+/* _________________________ */
+/* Position Property Code */
+/* ========================= */
+/* _________________________ */
+
+.property div {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(56, 97, 145);
+  border: 2px solid black;
+  margin: 10px;
+  display: inline-block;
+}
+
+#middle {
+  background-color: rgb(223, 53, 53);
+  border-color: rgb(60, 255, 0);
+  opacity: 0.5;
+}
+
+#static #middle {
+  position: static;
+  top: 100px;
+}
+
+#relative #middle {
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+
+#absolute #middle {
+  position: absolute;
+  top: 50px;
+}
+
+#fixed #middle {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}

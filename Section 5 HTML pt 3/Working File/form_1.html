@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Demo</title>
+</head>
+
+<body>
+    <h1>Forms Demo</h1>
+
+    <form action="/tacos">
+        <p>
+            <label for="username">Enter your username:</label>
+            <input id="username" type="text" placeholder="username" name="username">
+        </p>
+        <p>
+            <label for="password">Enter your password:</label>
+            <input id="password" type="password" placeholder="password" name="password">
+        </p>
+        <p>
+            <label for="color">Enter a color</label>
+            <input type="color" id="color">
+        </p>
+        <p>
+            <label for="number">Enter a number:
+
+            </label>
+            <input type="number" id="number" name="num">
+        </p>
+        <button type="">Submit</button>
+    </form>
+    <hr>
+    <h2>Reddit Search</h2>
+    <div>
+        <form action="http://www.reddit.com/search">
+            <p>
+                <label for="reddit"></label>
+                <input type="search" id="reddit" name="q" placeholder="Search on Reddit">
+            </p>
+            <button type="submit">Search</button>
+        </form>
+    </div>
+    <hr>
+    <h2>Google Search</h2>
+    <div>
+        <form action="http://www.google.com/search">
+            <p>
+                <label for="google"></label>
+                <input type="search" id="google" name="q" placeholder="Search on Google">
+            </p>
+            <button type="submit">Search</button>
+        </form>
+    </div>
+    <hr>
+    <h2>Youtube Search</h2>
+    <div>
+        <form action="http://www.youtube.com/results">
+            <p>
+                <label for="youtube"></label>
+                <input type="search" id="youtube" name="search_query" placeholder="Search on Youtube">
+            </p>
+            <button type="submit">Search</button>
+        </form>
+    </div>
+    <hr>
+    <div>
+        <form action="/nothing">
+            <label for="size">Select your size</label>
+            <select name="size" id="size">
+                <option value="" selected></option>
+                <option value="Xlarge">X-large</option>
+                <option value="large">Large</option>
+                <option value="medium">Medium</option>
+                <option value="small">Small</option>
+                <option value="Xsmall">X-small</option>
+            </select>
+            <button type="submit">Add to cart</button>
+            <p>
+                <label for="requests">Any Special Requests?</label>
+                <br>
+                <textarea name="request" id="requests" cols="30" rows="3" placeholder="Please type here.."></textarea>
+            </p>
+        </form>
+    </div>
+    <hr>
+    <h2>Validations Demo</h2>
+    <form action="/dummy">
+        <label for="firstn">First Name</label>
+        <br>
+        <input type="text" name="firstn" id="firstn" required>
+        <p>
+            <label for="username">Username</label>
+            <br>
+            <input type="text" name="username" id="username" minlength="5" maxlength="20" required>
+        </p>
+        <button type="submit">Submit</button>
+    </form>
+
+
+
+
+</body>
+
+</html>
