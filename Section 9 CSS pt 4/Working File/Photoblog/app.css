@@ -18,9 +18,9 @@ img {
   height: 30%;
   display: inline-flex;
   margin: calc(10% / 6);
+  transition: all 0.1s ease-in;
 }
 
-/* img:hover {
-  padding-bottom: 3px;
-  border-bottom: 0.5px solid rgb(82, 82, 82);
-} */
+img:hover {
+  transform: scale(1.01);
+}
