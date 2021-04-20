@@ -26,18 +26,3 @@ h1 {
 section > div:nth-of-type(5) {
   align-self: flex-start;
 }
-
-main {
-  width: 80%;
-  margin: 0 auto;
-  border: 5px solid black;
-  height: 500px;
-  display: flex;
-}
-
-main .sidebar {
-  background-color: rgb(185, 26, 185);
-}
-main .maincontent {
-  background-color: rgb(16, 173, 184);
-}
