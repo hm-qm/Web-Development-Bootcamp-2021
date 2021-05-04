@@ -4,14 +4,14 @@
 
 <h3>Technologies Covered:</h3>
 <ul>
-    <li><s>HTML5</s> <span style="color: green;">Completed</span></li>
-    <li><s>CSS3</s></li>
-    <li><s>Flexbox</s></li>
-    <li><s>Responsive Design</s></li>
-    <li>JavaScript (all 2020 modern syntax, ES6, ES2018, etc.)</li>
+    <li><s>HTML5</s> <span style="color:rgb(54, 155, 54)">Completed</span></li>
+    <li><s>CSS3</s> <span style="color:rgb(54, 155, 54)">Completed</span></li>
+    <li><s>Flexbox</s> <span style="color:rgb(54, 155, 54)">Completed</span></li>
+    <li><s>Responsive Design</s> <span style="color:rgb(54, 155, 54)">Completed</span></li>
+    <li>JavaScript (all 2020 modern syntax, ES6, ES2018, etc.) <span style="color:rgb(207, 66, 1)">In Progress</span></li>
     <li>Asynchronous JavaScript - Promises, async/await, etc.</li>
     <li>AJAX and single page apps</li>
-    <li><s>Bootstrap 4 and 5 (alpha)</s></li>
+    <li><s>Bootstrap 4 and 5 (alpha)</s> <span style="color:rgb(54, 155, 54)">Completed</span></li>
     <li>SemanticUI</li>
     <li>Bulma CSS Framework</li>
     <li>DOM Manipulation</li>
