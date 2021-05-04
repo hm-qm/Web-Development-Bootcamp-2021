@@ -4,7 +4,7 @@
 
 <h3>Technologies Covered:</h3>
 <ul>
-    <li><s>HTML5</s><span>Completed</span></li>
+    <li><s>HTML5</s> <span style="color: green;">Completed</span></li>
     <li><s>CSS3</s></li>
     <li><s>Flexbox</s></li>
     <li><s>Responsive Design</s></li>
