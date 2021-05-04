@@ -4,14 +4,14 @@
 
 <h3>Technologies Covered:</h3>
 <ul>
-    <li>HTML5</li>
-    <li>CSS3</li>
-    <li>Flexbox</li>
-    <li>Responsive Design</li>
+    <li><s>HTML5</s></li>
+    <li><s>CSS3</s></li>
+    <li><s>Flexbox</s></li>
+    <li><s>Responsive Design</s></li>
     <li>JavaScript (all 2020 modern syntax, ES6, ES2018, etc.)</li>
     <li>Asynchronous JavaScript - Promises, async/await, etc.</li>
     <li>AJAX and single page apps</li>
-    <li>Bootstrap 4 and 5 (alpha)</li>
+    <li><s>Bootstrap 4 and 5 (alpha)</s></li>
     <li>SemanticUI</li>
     <li>Bulma CSS Framework</li>
     <li>DOM Manipulation</li>
