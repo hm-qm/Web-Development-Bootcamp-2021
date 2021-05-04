@@ -19,3 +19,4 @@ for (let i = 100; i >= 0; i--){
 for(let i = 25; i >= 0; i -= 5){
     console.log(i);
 }
+
